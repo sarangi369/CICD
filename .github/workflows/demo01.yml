@@ -7,13 +7,13 @@ on:
      - develop
 jobs:
   hello-world:
-  runs-on: ubuntu-latest
-  steps:  
-   - name: checkout-code
-     uses: action/checkout@v4
+    runs-on: ubuntu-latest
+    steps:  
+      - name: checkout-code
+        uses: action/checkout@v4
 
-   - name: print a message
-     run: echo "hello from GHA"
+      - name: print a message
+        run: echo "hello from GHA"
     
    
      
